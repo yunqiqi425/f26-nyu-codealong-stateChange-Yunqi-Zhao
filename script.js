@@ -41,7 +41,7 @@ completeButton.addEventListener("click", () => {
   }
 
   //updat the progress text
-  progressText.textContent = "progress text updated!";
+  progressText.textContent = 0 + "of" + totalSteps + "steps complete";
 
 });
 // STEP 6: Run the code when the button is clicked
